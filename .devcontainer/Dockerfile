@@ -1,5 +1,5 @@
 # Use the official Node.js image as a parent image
-FROM node:14
+FROM node:20.15.1
 
 # Set the working directory
 WORKDIR /usr/src/app
