@@ -18,7 +18,7 @@
       "hermitter.oh-lucy-vscode",
       "pkief.material-icon-theme"
     ],
-    //"runArgs": ["--env-file", ".devcontainer/.env"],
+    "runArgs": ["--env-file", ".devcontainer/.env"],
     "forwardPorts": [3000],
     "remoteUser": "node"
   }
