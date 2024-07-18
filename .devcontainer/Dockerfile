@@ -1,6 +1,9 @@
 # Use the official Node.js image as a parent image
 FROM node:20.15.1
 
+# Copy library scripts to execute
+COPY scripts/*.sh /tmp/scripts/
+
 # Set the working directory
 WORKDIR /usr/src/app
 
